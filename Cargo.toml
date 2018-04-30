@@ -1,0 +1,12 @@
+[package]
+name = "mmsg-rs"
+version = "0.1.0"
+authors = ["David Holroyd <dave@badgers-in-foil.co.uk>"]
+description = """
+Wrapper for linux-specific recvmmsg() / sendmmsg() syscalls
+"""
+
+[dependencies]
+libc = "0.2.37"
+iovec = "0.1.2"
+bitflags = "1.0.3"
